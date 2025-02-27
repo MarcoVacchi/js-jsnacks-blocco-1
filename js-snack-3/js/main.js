@@ -4,9 +4,9 @@ Il programma stampa la somma di tutti i numeri inseriti.*/
 
 let somma = 0;
 
-for (let i = 1; i <= 10; i++) {
-  let numero = parseInt(prompt("Inserisci un numero:"));
+for (let i = 0; i < 10; i++) {
+  let numero = parseInt(prompt('Inserisci un numero:'));
   somma += numero;
 }
 
-console.log("La somma di tutti i numeri inseriti è: " + somma);
+console.log('La somma dei numeri inseriti è: ' + somma);

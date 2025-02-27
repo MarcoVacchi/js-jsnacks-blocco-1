@@ -4,8 +4,8 @@ Il software stampa il maggiore.*/
 
 
 // Chiediamo all'utente di inserire due numeri
-let numero1 = prompt('Inserisci il primo numero');
-let numero2 = prompt('Inserisci il secondo numero');
+let numero1 = (prompt('Inserisci il primo numero'));
+let numero2 = (prompt('Inserisci il secondo numero'));
 
 // Converto i valori inseriti da stringhe a numeri
 numero1 = Number(numero1);
